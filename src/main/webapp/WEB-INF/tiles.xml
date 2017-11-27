@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+   <definition name="baseLayout" template="baseModel.jsp">
+       <put-attribute name="title"  value="Geolocalisation"/>
+    <put-attribute name="header" value="/views/baseLayout/header.jsp" />
+    <put-attribute name="content" value="/views/baseLayout/base.jsp" />
+    <put-attribute name="sidebar" value="/views/baseLayout/sidebar.jsp" />
+    <put-attribute name="footer" value="/views/baseLayout/footer.jsp" />
+   </definition> 
+   
+   <definition name="accueil" extends="baseLayout">
+       
+   </definition>
+   
+</tiles-definitions>
