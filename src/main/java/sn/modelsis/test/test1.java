@@ -30,6 +30,5 @@ public class test1 extends ActionSupport{
     public void setMessage(String message) {
         this.message = message;
     }    
-    
-    
+ 
 }
