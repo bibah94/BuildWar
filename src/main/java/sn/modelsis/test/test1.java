@@ -31,4 +31,5 @@ public class test1 extends ActionSupport{
         this.message = message;
     }    
  
+    
 }
