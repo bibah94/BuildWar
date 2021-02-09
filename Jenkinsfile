@@ -9,8 +9,13 @@ pipeline {
     }
 
     stage('Build Project') {
+      environment {
+          PATH = "/opt/maven/bin:PATH"
+      }
       steps {
-        sh "mvn clean install"
+          withMaven {
+              sh "mvn clean install package"
+          }
       }
     }
 
