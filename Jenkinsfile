@@ -13,9 +13,9 @@ pipeline {
           PATH = "/opt/maven/bin:PATH"
       }
       steps {
-          withMaven {
+          
               sh "mvn clean install"
-          }
+          
       }
     }
 
